@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chapter">
+        <p>Chapter 2: The Search for Stardust</p>
+    </div>
+    <audio id="myAudio" loop controls>
+        <source src="narracja - Made with Clipchamp.mp3" type="audio/mpeg">
+        Twój przeglądarka nie obsługuje elementu audio.
+    </audio>
+
+    <div class="zdjęcia">
+        <img src="./Zdjęcia/Panel 12.png" alt="">
+        <img src="./Zdjęcia/Panel 13.png" alt="">
+        <img src="./Zdjęcia/Panel 14.png" alt="">
+        <img src="./Zdjęcia/Panel 15.png" alt="">
+    </div>
+    <a href="page3.html" class="prev">&#10094</a>
+    <a href="page5.html" class="next">&#10095</a>
+    <script>
+        // Pobranie elementu audio
+        var audio = document.getElementById("myAudio");
+
+        // Ustawienie, aby audio rozpoczęło się od 30. sekundy
+        audio.currentTime = 87;
+
+        // Rozpoczęcie odtwarzania audio
+        audio.play();
+    </script>
+</body>
+
+
+    
+
+</html>
